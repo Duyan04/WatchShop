@@ -1,0 +1,10 @@
+.contact {
+    @media screen and (max-width: 800px) {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+    .image img {
+        width: 100%;
+        height: auto;
+    }
+}
